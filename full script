@@ -14,13 +14,6 @@ local Window = Fluent:CreateWindow({
 
 local Tabs = {
     Inf = Window:AddTab({ Title = "Inf", Icon = "" }),
-    Iamrich = Window:AddTab({ Title = "Iamrich", Icon = "" }),
-    Jean = Window:AddTab({ Title = "Jean part", Icon = "" }),
-    Lucifer = Window:AddTab({ Title = "Lucifer part", Icon = "" }),
-    Jaybo = Window:AddTab({ Title = "Jaybo part", Icon = "" }),
-    Cherise = Window:AddTab({ Title = "Cherise part", Icon = "" }),
-    Misc = Window:AddTab({ Title = "Misc", Icon = "" }),
-    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
 
 Tabs.Inf:AddButton({
