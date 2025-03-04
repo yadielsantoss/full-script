@@ -9,7 +9,7 @@ local Window = Fluent:CreateWindow({
     Size = UDim2.fromOffset(580, 460),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "Dark",
-    MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
+    MinimizeKey = Enum.KeyCode.LeftControl -- Used when there's no MinimizeKeybind
 })
 
 local Tabs = {
@@ -23,16 +23,18 @@ local Tabs = {
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
 
-    Tabs.Inf:AddButton({
-        Title = "pc",
-        Description = "",
-        Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/yadielsantoss/pc-aws/refs/heads/main/pc%20aws'))()
-    })
+Tabs.Inf:AddButton({
+    Title = "pc",
+    Description = "",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/yadielsantoss/pc-aws/refs/heads/main/pc%20aws'))()
+    end
+})
 
-    Tabs.Inf:AddButton({
-        Title = "mobil",
-        Description = "mobil",
-        Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/yadielsantoss/mobil-script/refs/heads/main/mobil%20script'))()
-    })
+Tabs.Inf:AddButton({
+    Title = "mobil",
+    Description = "mobil",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/yadielsantoss/mobil-script/refs/heads/main/mobil%20script'))()
+    end
+})
