@@ -27,12 +27,12 @@ local Tabs = {
         Title = "pc",
         Description = "",
         Callback = function()
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/yadielsantoss/pc-aws/refs/heads/main/pc%20aws'))()
     })
 
     Tabs.Inf:AddButton({
-        Title = "Button",
+        Title = "mobil",
         Description = "mobil",
         Callback = function()
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/yadielsantoss/mobil-script/refs/heads/main/mobil%20script'))()
     })
